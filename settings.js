@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "SuIVVI5L#m2Fm20TyMmyWd6WkxVCNXcS6svfzxAXE3fE1zDm_hPc", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "juglTQ7I#J1eMsGV-v7THBW7o3Z6jqm2qJasWQ-DHVu-WdMuzDRA", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "false",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
@@ -20,7 +20,7 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",   
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
-ANTI_DELETE: process.env.ANTI_DELETE || "true",
+ANTI_DELETE: process.env.ANTI_DELETE || "false",
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
 INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
 };
